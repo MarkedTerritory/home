@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: 100%;
     z-index:1;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .cont a {
@@ -24,7 +24,8 @@ body{
     position: absolute;
     width:10vw;
     height:20vh;
-    cursor: url('./at3qd-6v759-001.ico'),auto;
+    /* background: aqua; */
+    cursor: url('./imgs/at3qd-6v759-001.ico'),auto;
 }
 .cont #alpha-1{
     top:12vh;
@@ -58,12 +59,26 @@ body{
     z-index: 2;
 }
 #build-vr{
-    top:12vh;
-    right:35vw; 
+    top:10vh;
+    right:30vw; 
     z-index: 2;
 }
 #scenery-vr{
-    top:12vh;
-    left:30vw; 
+    top:10vh;
+    left:26vw; 
     z-index: 2; 
+}
+.back{
+    z-index: 2;
+    top: -2vh;
+    left:3vw;
+    background: url(./imgs/back.png) no-repeat;
+    background-size: 100%,100%;
+}
+.play{
+    z-index: 2;
+    top: 0vh;
+    right:3vw;
+    background: url(./imgs/play.png) no-repeat;
+    background-size: 100%,100%;
 }
