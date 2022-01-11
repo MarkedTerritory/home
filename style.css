@@ -22,18 +22,21 @@ body{
 .cont a {
     display: block;
     position: absolute;
-    width:10vw;
-    height:20vh;
-    /* background: aqua; */
+    width:12vw;
+    height:15vh;
     cursor: url('./imgs/at3qd-6v759-001.ico'),auto;
 }
-.cont #alpha-1{
+#alpha-1{
     top:12vh;
     left:9vw;
 }
 #alpha-2{
     top:12vh;
     right:9vw; 
+}
+#alpha-1:hover,#alpha-2:hover{
+    background:url('./imgs/icon/alpha.png') bottom center no-repeat;
+    background-size:contain;
 }
 #omega1-1{
     width: 20vw;
@@ -47,38 +50,60 @@ body{
     top:50vh;
     right:5vw;
 }
+#omega1-1:hover,#omega2-1:hover{
+    background:url('./imgs/icon/omega.png') bottom center no-repeat;
+    background-size:contain;
+}
 #Architecture{
     width: 20vw;
     height: 70vh;
     top:10vh;
     left:40vw;
 }
+#Architecture:hover{
+    background:url('./imgs/icon/architecture.png') bottom center no-repeat;
+    background-size:contain;
+}
 #heart{
     top:25vh;
     left: 42vw;
     z-index: 2;
 }
+#heart:hover{
+    background:url('./imgs/icon/heart.png')bottom center no-repeat;
+    background-size:contain;
+}
 #build-vr{
-    top:10vh;
-    right:30vw; 
+    top:22vh;
+    right:25vw; 
     z-index: 2;
+}
+#build-vr:hover{
+    background:url('./imgs/icon/a_vr.png')bottom center no-repeat;
+    background-size:contain;
 }
 #scenery-vr{
-    top:10vh;
-    left:26vw; 
+    top:22vh;
+    left:25vw; 
     z-index: 2; 
 }
-.back{
-    z-index: 2;
-    top: -2vh;
-    left:3vw;
-    background: url(./imgs/back.png) no-repeat;
-    background-size: 100%,100%;
+#scenery-vr:hover{
+    background:url('./imgs/icon/land_vr.png')bottom center no-repeat;
+    background-size:contain;
 }
-.play{
+a.back{
     z-index: 2;
-    top: 0vh;
+    width:7vw;
+    top: 11vh;
+    left:3vw;
+    background: url('./imgs/back.png') no-repeat;
+    background-size: contain;
+}
+a.play{
+    z-index: 2;
+    width:6vw;
+    top: 11vh;
     right:3vw;
-    background: url(./imgs/play.png) no-repeat;
-    background-size: 100%,100%;
+    background: url("./imgs/play.png")  no-repeat;
+    background-size: contain;
 }
